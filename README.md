@@ -1,4 +1,4 @@
-# StaticGen
+# RailsVault
 
 [StaticGen.com](http://www.staticgen.com), a leaderboard of top open-source static site generators.
 
