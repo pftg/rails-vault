@@ -5,16 +5,18 @@ layout: page
 
 # About RailsVault
 
-RailsVault is a leaderboard of the top open-source static site generators. It's run by [Netlify](https://www.netlify.com), a hosting and automation service for static websites and apps, as a way to promote a static approach to building websites.
+RailsVault is a leaderboard of the top Ruby on Rails starter repos. It's run by [Spacetime](https://www.heyspacetime.com/), and based on the <a href="https://github.com/netlify/staticgen">StaticGen</a> project by [Netlify](https://www.netlify.com/).
 
-The site itself is built with [Middleman](http://middlemanapp.com/). Every day [Netlify](https://www.netlify.com/) builds and deploys the site. The source-code is available on [GitHub](https://github.com/netlify/staticgen) and you're more than welcome to contribute as long as you [follow the rules](/rules.html).
 
-### Static Site Generators
 
-People sometimes ask if static sites make sense for anything beyond a one-pager. This leaderboard highlights the top open source projects, in many different languages, that make static sites not only viable, but an attractive option for creating sophisticated websites!
+The site itself is built with [Middleman](http://middlemanapp.com/). The source-code is available on a [GitHub repo](https://github.com/heyspacetime/rails-vault) and you're more than welcome to contribute as long as you [follow the rules](/rules.html).
 
-The typical CMS driven website works by building each page on-demand, fetching content from a database and running it through a template engine. This means each page is assembled from templates and content on each request to the server.
+### Ruby on Rails Starters
 
-For most sites this is completely unnecessary overhead and only adds complexity, performance problems and security issues. After all, by far the most websites only change when the content authors or their design team makes changes.
+Ruby on Rails has been hailed as the go-to tech stack for startups looking for speed and scale.
 
-A **Static Site Generator** takes a different approach and generate all the pages of the website once when there's actually changes to the site. This means there's no moving parts in the deployed website. Caching gets much easier, performance goes up and static sites are far more secure.
+The Convention Over Configuration philosophy is great, but let's be real, there is still a ton of configuration required to get even the simplest features set up. Like Users, Teams, Invitations, Mailers, Payment, etc etc.
+
+When you have a Product idea and you want to test it out for viability, you don't want to waste your time configuring Subscriptions and Stripe. What if you could find a RoR starter that already had a User, Team, Membership, and Payment ready to go? Then you could focus on rapidly building the core functionality of Your App instead of the generic boring stuff that every app needs but doesn't provide early value to test your idea.
+
+**RailsVault** is an attempt to gather all the great Ruby on Rails starters into one place to learn from and use. Maybe you'll find a new boilerplate to build production projects with. Or maybe you'll find the perfect Ruby on Rails starter to whip up a product idea in a couple hours without having to customize the product idea.

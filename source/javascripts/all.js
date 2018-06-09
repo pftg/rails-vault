@@ -8,20 +8,20 @@
 //= require_self
 
 $(function() {
-  var share = new Share("#share-button-top", {
-    networks: {
-      facebook: {
-        app_id: "1604147083144211",
-      }
-    }
-  });
+  // var share = new Share("#share-button-top", {
+  //   networks: {
+  //     facebook: {
+  //       app_id: "1604147083144211",
+  //     }
+  //   }
+  // });
 
   // This is a band-aid for the broken menu bar problem
   $(window).on('resize', function(){
     $('.navbar').attr('style', '').removeData('pin');
     $('.navbar').pin();
   });
-  
+
   var sortAscending = {title: true};
 
   $(".projects").isotope({
