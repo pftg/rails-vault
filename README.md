@@ -1,25 +1,25 @@
 # RailsVault
 
-[StaticGen.com](http://www.staticgen.com), a leaderboard of top open-source static site generators.
+[RailsVault](https://railsvault.netlify.com), is a leaderboard of the top Ruby on Rails starter repos
 
 ## Contributing
 
-Missing a static site generator here? Just fork the repo and add your generator
+Missing a Ruby on Rails starter repo here? Just fork the repo and add your starter project
 as a `<name>.md` in the `source/projects` folder.
 
 Make sure to follow the following rules:
 
-*   **Static Site Generation:** No "flat-file CMSs" or similar tools. The program must be able to output a static website that can be hosted in places like Netlify, S3 or Github Pages.
-*   **Open Source:** The generator must have a public repository on Github that we can link to and pull in stats from.
-*   **Stick to the format:** Fill out all the same fields as the other static site generators in `source/projects`.
-*   **Short description:** Keep all the details for the body text, keep the description for the overview page short and sweet.
+* **Ruby on Rails Starter:** The ideal starter is either a for Production starter or a hack-it-really-fast perfect for an MVP starter.
+* **Open Source:** The project must be released under an open source license.
+* **Accessible on GitHub:** The project must have a public repository on GitHub that we can link to and pull in stats from.
+* **Stick to the format:** Fill out all the same fields as the other Ruby on Rails projects in `source/projects`.
 
 ## Running locally
 
-StaticGen is built with Middleman. To install and run locally:
+RailsValut is built with Middleman. To install and run locally:
 
-    git clone https://github.com/netlify/staticgen.git
-    cd staticgen
+    git clone git@github.com:heyspacetime/rails-vault.git
+    cd rails-vault
     bundle install (requires ruby 2.1.2 to work w/o errors)
     bundle exec middleman
 
@@ -36,9 +36,9 @@ Then middleman will use the Gist you specified to archive stats (stars, forks an
 
 ## Netlify
 
-StaticGen is built and maintained by [Netlify](https://www.netlify.com), a hosting and automation service for static websites and apps.
+RailsVault is cloned from StaticGen. A project built and maintained by [Netlify](https://www.netlify.com), a hosting and automation service for static websites and apps.
 
 ## License
 
-StaticGen is released under the [MIT License](LICENSE).
+RailsVault and StaticGen is released under the [MIT License](LICENSE).
 Please make sure you understand its [implications and guarantees](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html).
