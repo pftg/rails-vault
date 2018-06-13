@@ -13,7 +13,7 @@ title: RailsVault - Get your Rails app off the ground, fast
           data-language="<%= project.language.downcase.gsub(/\s/, '-') %>">
         <div class="card">
           <h4 class="title"><a href="<%= project.url %>"><%= project.title %></a></h4>
-          <h6 class="url"><a href="<%= project.homepage %>"><%= project.homepage.sub(/^https?:\/\//, '') %></a></small></h6>
+          <h6 class="url"><a href="<%= project.homepage %>" target="_blank" rel="noopener"><%= project.homepage.sub(/^https?:\/\//, '') %></a></small></h6>
           <ul class="stats">
             <li title="Stars">
               <i class="fa fa-star"></i>
