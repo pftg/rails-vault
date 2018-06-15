@@ -6,6 +6,9 @@ set :images_dir, 'images'
 
 activate :github
 activate :syntax
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-120926409-1' # Replace with your property ID.
+end
 
 helpers do
   def caret_icon(number)

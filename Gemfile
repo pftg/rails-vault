@@ -12,6 +12,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 gem "middleman-syntax"
 gem "redcarpet"
+gem 'middleman-google-analytics', '~> 3.0'
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
